@@ -22,7 +22,7 @@ header
 }
 main
 {
-    
+    margin-bottom: auto;
     border-style: solid;
 }
 
@@ -30,6 +30,10 @@ footer
 {
     background-color: greenyellow;
     border-style: solid;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
 }
 nav
 {
