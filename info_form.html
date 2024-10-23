@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>INFO</title>
+    <style>
+        .hdiv
+        {
+            text-align: center;
+        }
+        .bdiv
+        {
+            text-align: center;
+        }
+        .fdiv
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <header >
+            <div class="hdiv">
+                <h1 >
+                    <span>your info</span>
+                </h1>
+                <nav>
+                    <a  style="color: palevioletred;" href="index.html"
+             title="home"
+             >
+             Home
+             </a>
+             <a style="color: palevioletred;" href="about_me.html"
+             title="about me"
+             
+             onclick="myButton()"
+             >
+             about me
+             </a>
+             <a  style="color: palevioletred;" href="info_form.html"
+             title="User info"
+            
+             >
+             tell me
+             </a>
+             <a  style="color: palevioletred;" href="https://google.com/"
+             target='_blank'
+             title="goes to google"
+             >
+             click me
+             </a>
+        
+                </nav>
+                
+    </header>
+    <main>
+        <div class="bdiv">
+            <form action = "index.html" , method="post" id="btext">
+                <label for="Name"> Name: </label>
+                <input type="text" id="Name" placeholder="abc" required>
+                <br>
+                
+                <label for="Email"> Email: </label>
+                <input type="email" id="Email" placeholder="abc@gmail.com" required>
+                <br>
+        
+                <label for="Tel"> Tel: </label>
+                <input type="tel" id="Tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <br>
+                <label for="BDate"> Birthdate: </label>
+                <input type="date" id="BDate" required>
+                <br>
+                <label for="Gender">Gender:</label>
+                
+                <select id="Gender">
+                    <option value="man">
+                        Man
+                    </option>
+                    <option value="Woman">
+                        Woman
+                    </option> 
+                </select>
+                
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <label for="comment"> Comment:</label><br>
+            <textarea name="" id="comment" rows="3" cols="25"></textarea>
+            <br>
+            <input type="submit">
+            
+            <input type="reset">
+            
+    
+            </form>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="fdiv">
+            <h1 > Contact </h1>
+            <nav>
+                <small>
+                    <a href="mailto:astroll656@gmail.com" target="_blank"> astroll656@gmail.com </a>
+                </small>
+            </nav>
+        
+        <hr>
+        <p1>
+            author: Punnaphop Meerit <br>
+            &copy; copyright reserved <br>
+        </p1>
+        </div>
+        
+    </footer>
+
+</body>
+</html>

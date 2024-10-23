@@ -1,0 +1,27 @@
+.myButton{
+    background-color:yellowgreen;
+    color: white; 
+    border-radius: 25px;
+    font-size: small;
+}
+
+body{
+    background-color: rgb(255, 207, 102);
+    
+}
+header
+{
+    
+    background-color: greenyellow;
+    border-style: solid;
+}
+main
+{
+    background-color: rgb(255, 207, 102);
+}
+
+footer
+{
+    background-color: greenyellow;
+    border-style: solid;
+}
