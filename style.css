@@ -6,7 +6,12 @@
 }
 
 body{
-    background-color: rgb(255, 207, 102);
+    
+    background-image: url(img/nyc\ park.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 header
@@ -17,7 +22,8 @@ header
 }
 main
 {
-    background-color: rgb(255, 207, 102);
+    
+    border-style: solid;
 }
 
 footer
@@ -28,5 +34,22 @@ footer
 nav
 {
     display: block;
-    
+
+}
+
+.hdiv
+{
+    text-align: center;
+    color: black;
+
+}
+.bdiv
+{
+    text-align: center;
+    height: auto;
+    color: white;
+}
+.fdiv
+{
+    text-align: center;
 }
