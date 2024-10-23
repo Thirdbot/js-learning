@@ -19,6 +19,10 @@ header
     
     background-color: greenyellow;
     border-style: solid;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
 }
 main
 {
@@ -35,10 +39,10 @@ footer
     width: 100%;
     bottom: 0;
 }
-nav
+.hnav
 {
     display: block;
-
+    
 }
 
 .hdiv
@@ -56,4 +60,24 @@ nav
 .fdiv
 {
     text-align: center;
+}
+
+#menu_bar
+{
+    border-style: solid ;
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    right: 1;
+    top: 1;
+}
+
+.hdiv nav{
+    display: none;
+}
+
+.hdiv:hover nav
+{
+    display: block;
 }
